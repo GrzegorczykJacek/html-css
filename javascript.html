@@ -16,7 +16,23 @@
     Kliknij mnie
 </button>
 
+<button onclick="swapFunction()">
+    Kliknij swap!
+</button>
+<p id="foobar">Foo bar!</p>
+
     <script>
+        function swapFunction(){
+<!--            document.getElementById('foobar').innerHTML = "Bar foo!";-->
+            let elementById = document.getElementById("foobar");
+            if(elementById.innerHTML === "Foo bar!"){
+                elementById.innerHTML = "Bar foo!";
+            } else {
+                elementById.innerHTML = "Foo bar!";
+            }
+        }
+
+
         alert("Hello World!");
         console.log("Hello World!");
 
