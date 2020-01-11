@@ -1,0 +1,22 @@
+table {
+    border: 1px solid black;
+    width: 80%;
+    alignment: center;
+}
+
+#identyfikator {
+    color: green;
+}
+
+.mojeKlasa {
+    background-color: aquamarine;
+}
+
+.mojeKlasa.drugaKlasa {
+    background-color: red;
+}
+
+/* wybór po atrybucie w tagu */
+[align="center"] {
+    font-size: 34px;
+}
