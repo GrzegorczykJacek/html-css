@@ -1,0 +1,17 @@
+img {
+    margin: auto;
+    display: block;
+    border-radius: 25px;
+}
+
+.lista {
+    list-style-type: lower-roman;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: red;
+}
