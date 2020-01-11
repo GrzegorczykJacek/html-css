@@ -6,10 +6,41 @@
 </head>
 <body>
 
+<!--paragrapgh to be changed with JavaScript below-->
+<p id="paragraph">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur eaque iste nostrum placeat recusandae repellat, suscipit voluptate voluptates? Aliquid architecto corporis, cum et harum laboriosam nihil odio quasi reprehenderit unde.
+</p>
+
+<!-- Button -->
+<button onclick="alertFunction()">
+    Kliknij mnie
+</button>
+
     <script>
         alert("Hello World!");
         console.log("Hello World!");
+
+        var var1 = 1;
+        var var2 = 1;
+        if(var1 == var2){
+            console.log("var1 == var2");
+        } else {
+            console.log("var1 != var2");
+        }
+
+        for (let i of [2, 'some text', 3, 4 ]){
+            console.log(i);
+        }
+
+        var par = "New paragraph...";
+        document.getElementById("paragraph").innerHTML = par;
+
+        function alertFunction(){
+            alert('Kliknąłeś w button!');
+        }
     </script>
+
+
 
 </body>
 </html>
